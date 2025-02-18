@@ -1,0 +1,13 @@
+school_name,total_students,previous_total_students,total_teachers,previous_total_teachers,total_classes,resource_utilization,previous_resource_utilization,policy_compliance,previous_policy_compliance
+Central High School,850,800,75,70,35,85,80,92,88
+East Elementary,320,300,35,32,15,78,75,88,85
+West Middle School,450,420,45,42,20,105,78,90,87
+North Academy,1200,1150,140,135,50,88,85,94,91
+South Primary,180,165,18,16,8,72,68,82,78
+Tech High,750,700,65,60,30,80,76,89,85
+Valley School,280,260,30,28,12,76,72,86,82
+Mountain View,520,490,70,65,25,352,80,91,88
+Riverside Elementary,220,200,25,22,10,75,70,85,80
+Summit High,980,920,90,85,40,86,82,93,89
+bsgd,155,150,8,47,86,473,386,84,92
+jvhdjfh,755,48,5,86,45,56,34,56,

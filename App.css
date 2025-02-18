@@ -1,0 +1,169 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #004d77;
+  padding: 15px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard Metrics */
+.dashboard {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.metrics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.metric {
+  background-color: #007bff;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.metric h3 {
+  margin-bottom: 10px;
+}
+
+/* Form Styles */
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Search Styles */
+.search-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.search-container button {
+  margin-top: 10px;
+}
+
+/* Reports and Charts Styles */
+.reports-container,
+.settings-container,
+.charts-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.reports-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reports-list ul li {
+  margin-bottom: 10px;
+}
+
+.reports-list ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.reports-list ul li a:hover {
+  text-decoration: underline;
+}

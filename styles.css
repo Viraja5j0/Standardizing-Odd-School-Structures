@@ -1,0 +1,64 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.dashboard-container {
+  text-align: center;
+}
+
+.school-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.school-form label {
+  margin: 5px 0;
+}
+
+.school-form input,
+.school-form select {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
